@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: go-mizpiiog-gitops-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/go-mizpiiog-gitops
